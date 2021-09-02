@@ -1,2 +1,2 @@
-# plp
-CS 330: Programming Language Project
+# Programming Language Project
+for CS 330: Structure and Organization of Programming Language
