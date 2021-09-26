@@ -11,6 +11,8 @@ Like most languages, there are not set rules for how to name variables or functi
 
 *from: https://levelup.gitconnected.com/variables-and-types-in-julia-750b057c4537*
 
+## Julia as a Language
+
 > Is Julia statically or dynamically typed? Is Julia a weakly or strongly typed language?
 
 Julia is a dynamically typed language, specifically "dynamic, nominative and parametric." This means that specifying types is not necessarily required-the language automatically infers a type regardless of if it was declared or not. Using static type systems is useful in some cases such that the programmer wants to indicate a specific type to a certain value. While it may be more efficient because the compiler does not have to think about what the data type might me, it does not enhance the performance drastically. However, it greatly benefits those that write the code because they do not have to go through the tedious process of declaring every datatype. This also means that Julia checks for variable types during runtime and not throughout.
