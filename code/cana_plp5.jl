@@ -55,16 +55,15 @@ println(p2.weight)
 println(p2)
 println()
 
-
-# println(p3.name)          not quite sure how to get parent variable to print
-# println(p3.age)
-# println(p3.weight)
+println(p3.dog.name)        # have to access parent variable
+println(p3.dog.age)
+println(p3.dog.weight)
 println(p3)
 println()
 
-# println(p4.name)
-# println(p4.age)
-# println(p4.weight)
+println(p4.cat.name)        # have to access parent variable
+println(p4.cat.age)
+println(p4.cat.weight)
 println(p4)
 println()
 
